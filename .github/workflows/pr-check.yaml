@@ -20,7 +20,7 @@ jobs:
 
     steps:
     - name: Docker Buildx
-      uses: crazy-max/ghaction-docker-buildx@v3.3.0
+      uses: crazy-max/ghaction-docker-buildx@bb77f35f7a82f54fcda51000ea4e4467825014fd #v3.3.0
       with:
         buildx-version: v0.4.2
         qemu-version: 5.1.0-2
